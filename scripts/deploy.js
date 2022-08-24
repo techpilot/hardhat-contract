@@ -10,11 +10,11 @@ async function main() {
   console.log("SimpleStorage deployed to:", simpleStorage.address);
 
   // checks if the contract is deployed on local network or actual network
-  if (network.config.chainId === 5 && process.env.ETHERSCAN_API_KEY) {
-    console.log("waiting for block txes...");
-    await simpleStorage.deployTransaction.wait(6);
-    await verify(simpleStorage.address, []);
-  }
+  // if (network.config.chainId === 5 && process.env.ETHERSCAN_API_KEY) {
+  //   console.log("waiting for block txes...");
+  //   await simpleStorage.deployTransaction.wait(6);
+  //   await verify(simpleStorage.address, []);
+  // }
 
   // interact with the contract
   const currentValue = await simpleStorage.retrieve();
