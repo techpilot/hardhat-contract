@@ -1,0 +1,519 @@
+{
+  "0x59dddb1e7b25dfacad18f266010a4e4c286a088ee31f95347b0f224f267cf41f": {
+    "name": "FunWithStorage",
+    "deployment": {
+      "_format": "hh-sol-artifact-1",
+      "contractName": "FunWithStorage",
+      "sourceName": "contracts/FunWithStorage.sol",
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "name": "doStuff",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        }
+      ],
+      "bytecode": "0x60a060405234801561001057600080fd5b50601960008190555060018060006101000a81548160ff021916908315150217905550600260de908060018154018082558091505060019003906000526020600020016000909190919091505560016003600080815260200190815260200160002060006101000a81548160ff021916908315150217905550607b6080818152505060805161011c6100aa6000396000505061011c6000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063874f33a114602d575b600080fd5b60336035565b005b60006001600054604491906097565b90506000600160009054906101000a900460ff1690505050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600060a082605e565b915060a983605e565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111560db5760da6068565b5b82820190509291505056fea26469706673582212205651aca4f27c10640b96b83980902764d9cafc82be4ccfa70fe455b9909a183764736f6c63430008090033",
+      "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063874f33a114602d575b600080fd5b60336035565b005b60006001600054604491906097565b90506000600160009054906101000a900460ff1690505050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600060a082605e565b915060a983605e565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111560db5760da6068565b5b82820190509291505056fea26469706673582212205651aca4f27c10640b96b83980902764d9cafc82be4ccfa70fe455b9909a183764736f6c63430008090033",
+      "linkReferences": {},
+      "deployedLinkReferences": {},
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "evm": {
+        "bytecode": {
+          "functionDebugData": {
+            "@_91": {
+              "entryPoint": null,
+              "id": 91,
+              "parameterSlots": 0,
+              "returnSlots": 0
+            }
+          },
+          "generatedSources": [],
+          "linkReferences": {},
+          "object": "60a060405234801561001057600080fd5b50601960008190555060018060006101000a81548160ff021916908315150217905550600260de908060018154018082558091505060019003906000526020600020016000909190919091505560016003600080815260200190815260200160002060006101000a81548160ff021916908315150217905550607b6080818152505060805161011c6100aa6000396000505061011c6000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063874f33a114602d575b600080fd5b60336035565b005b60006001600054604491906097565b90506000600160009054906101000a900460ff1690505050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600060a082605e565b915060a983605e565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111560db5760da6068565b5b82820190509291505056fea26469706673582212205651aca4f27c10640b96b83980902764d9cafc82be4ccfa70fe455b9909a183764736f6c63430008090033",
+          "opcodes": "PUSH1 0xA0 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x19 PUSH1 0x0 DUP2 SWAP1 SSTORE POP PUSH1 0x1 DUP1 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP PUSH1 0x2 PUSH1 0xDE SWAP1 DUP1 PUSH1 0x1 DUP2 SLOAD ADD DUP1 DUP3 SSTORE DUP1 SWAP2 POP POP PUSH1 0x1 SWAP1 SUB SWAP1 PUSH1 0x0 MSTORE PUSH1 0x20 PUSH1 0x0 KECCAK256 ADD PUSH1 0x0 SWAP1 SWAP2 SWAP1 SWAP2 SWAP1 SWAP2 POP SSTORE PUSH1 0x1 PUSH1 0x3 PUSH1 0x0 DUP1 DUP2 MSTORE PUSH1 0x20 ADD SWAP1 DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x0 KECCAK256 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP PUSH1 0x7B PUSH1 0x80 DUP2 DUP2 MSTORE POP POP PUSH1 0x80 MLOAD PUSH2 0x11C PUSH2 0xAA PUSH1 0x0 CODECOPY PUSH1 0x0 POP POP PUSH2 0x11C PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x874F33A1 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 PUSH1 0x1 PUSH1 0x0 SLOAD PUSH1 0x44 SWAP2 SWAP1 PUSH1 0x97 JUMP JUMPDEST SWAP1 POP PUSH1 0x0 PUSH1 0x1 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND SWAP1 POP POP POP JUMP JUMPDEST PUSH1 0x0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH32 0x4E487B7100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 MSTORE PUSH1 0x11 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH1 0x0 REVERT JUMPDEST PUSH1 0x0 PUSH1 0xA0 DUP3 PUSH1 0x5E JUMP JUMPDEST SWAP2 POP PUSH1 0xA9 DUP4 PUSH1 0x5E JUMP JUMPDEST SWAP3 POP DUP3 PUSH32 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF SUB DUP3 GT ISZERO PUSH1 0xDB JUMPI PUSH1 0xDA PUSH1 0x68 JUMP JUMPDEST JUMPDEST DUP3 DUP3 ADD SWAP1 POP SWAP3 SWAP2 POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 JUMP MLOAD 0xAC LOG4 CALLCODE PUSH29 0x10640B96B83980902764D9CAFC82BE4CCFA70FE455B9909A183764736F PUSH13 0x63430008090033000000000000 ",
+          "sourceMap": "57:1033:1:-:0;;;672:249;;;;;;;;;;713:2;696:14;:19;;;;771:4;760:8;;:15;;;;;;;;;;;;;;;;;;820:7;833:3;820:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;868:4;857:5;:8;863:1;857:8;;;;;;;;;;;;:15;;;;;;;;;;;;;;;;;;911:3;892:22;;;;;;57:1033;;;;;;;;;;"
+        },
+        "deployedBytecode": {
+          "functionDebugData": {
+            "@doStuff_105": {
+              "entryPoint": 53,
+              "id": 105,
+              "parameterSlots": 0,
+              "returnSlots": 0
+            },
+            "checked_add_t_uint256": {
+              "entryPoint": 151,
+              "id": null,
+              "parameterSlots": 2,
+              "returnSlots": 1
+            },
+            "cleanup_t_uint256": {
+              "entryPoint": 94,
+              "id": null,
+              "parameterSlots": 1,
+              "returnSlots": 1
+            },
+            "panic_error_0x11": {
+              "entryPoint": 104,
+              "id": null,
+              "parameterSlots": 0,
+              "returnSlots": 0
+            }
+          },
+          "generatedSources": [
+            {
+              "ast": {
+                "nodeType": "YulBlock",
+                "src": "0:584:4",
+                "statements": [
+                  {
+                    "body": {
+                      "nodeType": "YulBlock",
+                      "src": "52:32:4",
+                      "statements": [
+                        {
+                          "nodeType": "YulAssignment",
+                          "src": "62:16:4",
+                          "value": {
+                            "name": "value",
+                            "nodeType": "YulIdentifier",
+                            "src": "73:5:4"
+                          },
+                          "variableNames": [
+                            {
+                              "name": "cleaned",
+                              "nodeType": "YulIdentifier",
+                              "src": "62:7:4"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "name": "cleanup_t_uint256",
+                    "nodeType": "YulFunctionDefinition",
+                    "parameters": [
+                      {
+                        "name": "value",
+                        "nodeType": "YulTypedName",
+                        "src": "34:5:4",
+                        "type": ""
+                      }
+                    ],
+                    "returnVariables": [
+                      {
+                        "name": "cleaned",
+                        "nodeType": "YulTypedName",
+                        "src": "44:7:4",
+                        "type": ""
+                      }
+                    ],
+                    "src": "7:77:4"
+                  },
+                  {
+                    "body": {
+                      "nodeType": "YulBlock",
+                      "src": "118:152:4",
+                      "statements": [
+                        {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "kind": "number",
+                                "nodeType": "YulLiteral",
+                                "src": "135:1:4",
+                                "type": "",
+                                "value": "0"
+                              },
+                              {
+                                "kind": "number",
+                                "nodeType": "YulLiteral",
+                                "src": "138:77:4",
+                                "type": "",
+                                "value": "35408467139433450592217433187231851964531694900788300625387963629091585785856"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "mstore",
+                              "nodeType": "YulIdentifier",
+                              "src": "128:6:4"
+                            },
+                            "nodeType": "YulFunctionCall",
+                            "src": "128:88:4"
+                          },
+                          "nodeType": "YulExpressionStatement",
+                          "src": "128:88:4"
+                        },
+                        {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "kind": "number",
+                                "nodeType": "YulLiteral",
+                                "src": "232:1:4",
+                                "type": "",
+                                "value": "4"
+                              },
+                              {
+                                "kind": "number",
+                                "nodeType": "YulLiteral",
+                                "src": "235:4:4",
+                                "type": "",
+                                "value": "0x11"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "mstore",
+                              "nodeType": "YulIdentifier",
+                              "src": "225:6:4"
+                            },
+                            "nodeType": "YulFunctionCall",
+                            "src": "225:15:4"
+                          },
+                          "nodeType": "YulExpressionStatement",
+                          "src": "225:15:4"
+                        },
+                        {
+                          "expression": {
+                            "arguments": [
+                              {
+                                "kind": "number",
+                                "nodeType": "YulLiteral",
+                                "src": "256:1:4",
+                                "type": "",
+                                "value": "0"
+                              },
+                              {
+                                "kind": "number",
+                                "nodeType": "YulLiteral",
+                                "src": "259:4:4",
+                                "type": "",
+                                "value": "0x24"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "revert",
+                              "nodeType": "YulIdentifier",
+                              "src": "249:6:4"
+                            },
+                            "nodeType": "YulFunctionCall",
+                            "src": "249:15:4"
+                          },
+                          "nodeType": "YulExpressionStatement",
+                          "src": "249:15:4"
+                        }
+                      ]
+                    },
+                    "name": "panic_error_0x11",
+                    "nodeType": "YulFunctionDefinition",
+                    "src": "90:180:4"
+                  },
+                  {
+                    "body": {
+                      "nodeType": "YulBlock",
+                      "src": "320:261:4",
+                      "statements": [
+                        {
+                          "nodeType": "YulAssignment",
+                          "src": "330:25:4",
+                          "value": {
+                            "arguments": [
+                              {
+                                "name": "x",
+                                "nodeType": "YulIdentifier",
+                                "src": "353:1:4"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "cleanup_t_uint256",
+                              "nodeType": "YulIdentifier",
+                              "src": "335:17:4"
+                            },
+                            "nodeType": "YulFunctionCall",
+                            "src": "335:20:4"
+                          },
+                          "variableNames": [
+                            {
+                              "name": "x",
+                              "nodeType": "YulIdentifier",
+                              "src": "330:1:4"
+                            }
+                          ]
+                        },
+                        {
+                          "nodeType": "YulAssignment",
+                          "src": "364:25:4",
+                          "value": {
+                            "arguments": [
+                              {
+                                "name": "y",
+                                "nodeType": "YulIdentifier",
+                                "src": "387:1:4"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "cleanup_t_uint256",
+                              "nodeType": "YulIdentifier",
+                              "src": "369:17:4"
+                            },
+                            "nodeType": "YulFunctionCall",
+                            "src": "369:20:4"
+                          },
+                          "variableNames": [
+                            {
+                              "name": "y",
+                              "nodeType": "YulIdentifier",
+                              "src": "364:1:4"
+                            }
+                          ]
+                        },
+                        {
+                          "body": {
+                            "nodeType": "YulBlock",
+                            "src": "527:22:4",
+                            "statements": [
+                              {
+                                "expression": {
+                                  "arguments": [],
+                                  "functionName": {
+                                    "name": "panic_error_0x11",
+                                    "nodeType": "YulIdentifier",
+                                    "src": "529:16:4"
+                                  },
+                                  "nodeType": "YulFunctionCall",
+                                  "src": "529:18:4"
+                                },
+                                "nodeType": "YulExpressionStatement",
+                                "src": "529:18:4"
+                              }
+                            ]
+                          },
+                          "condition": {
+                            "arguments": [
+                              {
+                                "name": "x",
+                                "nodeType": "YulIdentifier",
+                                "src": "448:1:4"
+                              },
+                              {
+                                "arguments": [
+                                  {
+                                    "kind": "number",
+                                    "nodeType": "YulLiteral",
+                                    "src": "455:66:4",
+                                    "type": "",
+                                    "value": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                                  },
+                                  {
+                                    "name": "y",
+                                    "nodeType": "YulIdentifier",
+                                    "src": "523:1:4"
+                                  }
+                                ],
+                                "functionName": {
+                                  "name": "sub",
+                                  "nodeType": "YulIdentifier",
+                                  "src": "451:3:4"
+                                },
+                                "nodeType": "YulFunctionCall",
+                                "src": "451:74:4"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "gt",
+                              "nodeType": "YulIdentifier",
+                              "src": "445:2:4"
+                            },
+                            "nodeType": "YulFunctionCall",
+                            "src": "445:81:4"
+                          },
+                          "nodeType": "YulIf",
+                          "src": "442:107:4"
+                        },
+                        {
+                          "nodeType": "YulAssignment",
+                          "src": "559:16:4",
+                          "value": {
+                            "arguments": [
+                              {
+                                "name": "x",
+                                "nodeType": "YulIdentifier",
+                                "src": "570:1:4"
+                              },
+                              {
+                                "name": "y",
+                                "nodeType": "YulIdentifier",
+                                "src": "573:1:4"
+                              }
+                            ],
+                            "functionName": {
+                              "name": "add",
+                              "nodeType": "YulIdentifier",
+                              "src": "566:3:4"
+                            },
+                            "nodeType": "YulFunctionCall",
+                            "src": "566:9:4"
+                          },
+                          "variableNames": [
+                            {
+                              "name": "sum",
+                              "nodeType": "YulIdentifier",
+                              "src": "559:3:4"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "name": "checked_add_t_uint256",
+                    "nodeType": "YulFunctionDefinition",
+                    "parameters": [
+                      {
+                        "name": "x",
+                        "nodeType": "YulTypedName",
+                        "src": "307:1:4",
+                        "type": ""
+                      },
+                      {
+                        "name": "y",
+                        "nodeType": "YulTypedName",
+                        "src": "310:1:4",
+                        "type": ""
+                      }
+                    ],
+                    "returnVariables": [
+                      {
+                        "name": "sum",
+                        "nodeType": "YulTypedName",
+                        "src": "316:3:4",
+                        "type": ""
+                      }
+                    ],
+                    "src": "276:305:4"
+                  }
+                ]
+              },
+              "contents": "{\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n\n        // overflow, if x > (maxValue - y)\n        if gt(x, sub(0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, y)) { panic_error_0x11() }\n\n        sum := add(x, y)\n    }\n\n}\n",
+              "id": 4,
+              "language": "Yul",
+              "name": "#utility.yul"
+            }
+          ],
+          "immutableReferences": {},
+          "linkReferences": {},
+          "object": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063874f33a114602d575b600080fd5b60336035565b005b60006001600054604491906097565b90506000600160009054906101000a900460ff1690505050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600060a082605e565b915060a983605e565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111560db5760da6068565b5b82820190509291505056fea26469706673582212205651aca4f27c10640b96b83980902764d9cafc82be4ccfa70fe455b9909a183764736f6c63430008090033",
+          "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x874F33A1 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 PUSH1 0x1 PUSH1 0x0 SLOAD PUSH1 0x44 SWAP2 SWAP1 PUSH1 0x97 JUMP JUMPDEST SWAP1 POP PUSH1 0x0 PUSH1 0x1 PUSH1 0x0 SWAP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND SWAP1 POP POP POP JUMP JUMPDEST PUSH1 0x0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH32 0x4E487B7100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 MSTORE PUSH1 0x11 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH1 0x0 REVERT JUMPDEST PUSH1 0x0 PUSH1 0xA0 DUP3 PUSH1 0x5E JUMP JUMPDEST SWAP2 POP PUSH1 0xA9 DUP4 PUSH1 0x5E JUMP JUMPDEST SWAP3 POP DUP3 PUSH32 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF SUB DUP3 GT ISZERO PUSH1 0xDB JUMPI PUSH1 0xDA PUSH1 0x68 JUMP JUMPDEST JUMPDEST DUP3 DUP3 ADD SWAP1 POP SWAP3 SWAP2 POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 JUMP MLOAD 0xAC LOG4 CALLCODE PUSH29 0x10640B96B83980902764D9CAFC82BE4CCFA70FE455B9909A183764736F PUSH13 0x63430008090033000000000000 ",
+          "sourceMap": "57:1033:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;927:161;;;:::i;:::-;;;963:14;997:1;980:14;;:18;;;;:::i;:::-;963:35;;1017:13;1033:8;;;;;;;;;;;1017:24;;953:135;;927:161::o;7:77:4:-;44:7;73:5;62:16;;7:77;;;:::o;90:180::-;138:77;135:1;128:88;235:4;232:1;225:15;259:4;256:1;249:15;276:305;316:3;335:20;353:1;335:20;:::i;:::-;330:25;;369:20;387:1;369:20;:::i;:::-;364:25;;523:1;455:66;451:74;448:1;445:81;442:107;;;529:18;;:::i;:::-;442:107;573:1;570;566:9;559:16;;276:305;;;;:::o"
+        },
+        "gasEstimates": {
+          "creation": {
+            "codeDepositCost": "56800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+          },
+          "external": {
+            "doStuff()": "infinite"
+          }
+        },
+        "methodIdentifiers": {
+          "doStuff()": "874f33a1"
+        }
+      },
+      "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"doStuff\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/FunWithStorage.sol\":\"FunWithStorage\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/FunWithStorage.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ncontract FunWithStorage {\\n    uint256 favoriteNumber; // Stored at slot 0\\n    bool someBool; // Stored at slot 1\\n    uint256[] myArray; /* Array Length Stored at slot 2,\\n    but the objects will be the keccak256(2), since 2 is the storage slot of the array */\\n    mapping(uint256 => bool) myMap; /* An empty slot is held at slot 3\\n    and the elements will be stored at keccak256(h(k) . p)\\n\\n    p: The storage slot (aka, 3)\\n    k: The key in hex\\n    h: Some function based on the type. For uint256, it just pads the hex\\n    */\\n    uint256 constant NOT_IN_STORAGE = 123;\\n    uint256 immutable i_not_in_storage;\\n\\n    constructor() {\\n        favoriteNumber = 25; // See stored spot above // SSTORE\\n        someBool = true; // See stored spot above // SSTORE\\n        myArray.push(222); // SSTORE\\n        myMap[0] = true; // SSTORE\\n        i_not_in_storage = 123;\\n    }\\n\\n    function doStuff() public {\\n        uint256 newVar = favoriteNumber + 1; // SLOAD\\n        bool otherVar = someBool; // SLOAD\\n        // ^^ memory variables\\n    }\\n}\\n\",\"keccak256\":\"0x46f9f7e91bc7b2d761b30b658b582e92eb02907598f6117b2c548d9d21962338\",\"license\":\"MIT\"}},\"version\":1}",
+      "storageLayout": {
+        "storage": [
+          {
+            "astId": 49,
+            "contract": "contracts/FunWithStorage.sol:FunWithStorage",
+            "label": "favoriteNumber",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 51,
+            "contract": "contracts/FunWithStorage.sol:FunWithStorage",
+            "label": "someBool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_bool"
+          },
+          {
+            "astId": 54,
+            "contract": "contracts/FunWithStorage.sol:FunWithStorage",
+            "label": "myArray",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_array(t_uint256)dyn_storage"
+          },
+          {
+            "astId": 58,
+            "contract": "contracts/FunWithStorage.sol:FunWithStorage",
+            "label": "myMap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_uint256,t_bool)"
+          }
+        ],
+        "types": {
+          "t_array(t_uint256)dyn_storage": {
+            "base": "t_uint256",
+            "encoding": "dynamic_array",
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "encoding": "inplace",
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "encoding": "mapping",
+            "key": "t_uint256",
+            "label": "mapping(uint256 => bool)",
+            "numberOfBytes": "32",
+            "value": "t_bool"
+          },
+          "t_uint256": {
+            "encoding": "inplace",
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      },
+      "solcInput": "{\n  \"language\": \"Solidity\",\n  \"sources\": {\n    \"contracts/FundMe.sol\": {\n      \"content\": \"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.9;\\n\\nimport \\\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\\\";\\nimport \\\"./PriceConverter.sol\\\";\\n\\nerror FundMe__NotOwner();\\n\\n/** @title A contract for crowd funding\\n *  @author Stephen\\n *  @notice This contract is to demo a simple fundme contract\\n *  @dev This implements price feeds as our library\\n *  @dev \\\"s_\\\" prefix represents storage variables\\n */\\n\\ncontract FundMe {\\n    using PriceConverter for uint256;\\n\\n    mapping(address => uint256) private s_addressToAmountFunded;\\n    address[] private s_funders;\\n\\n    // Could we make this constant?  /* hint: no! We should make it immutable! */\\n    address private immutable i_owner;\\n    uint256 public constant MINIMUM_USD = 50 * 10**18;\\n\\n    AggregatorV3Interface public s_priceFeed;\\n\\n    modifier onlyOwner() {\\n        // require(msg.sender == owner);\\n        if (msg.sender != i_owner) revert FundMe__NotOwner();\\n        _;\\n    }\\n\\n    constructor(address priceFeedAddress) {\\n        i_owner = msg.sender;\\n        s_priceFeed = AggregatorV3Interface(priceFeedAddress);\\n    }\\n\\n    // receive() external payable {\\n    //     fund();\\n    // }\\n\\n    // fallback() external payable {\\n    //     fund();\\n    // }\\n\\n    function fund() public payable {\\n        require(\\n            msg.value.getConversionRate(s_priceFeed) >= MINIMUM_USD,\\n            \\\"You need to spend more ETH!\\\"\\n        );\\n        // require(PriceConverter.getConversionRate(msg.value, s_priceFeed) >= MINIMUM_USD, \\\"You need to spend more ETH!\\\");\\n        s_addressToAmountFunded[msg.sender] += msg.value;\\n        s_funders.push(msg.sender);\\n    }\\n\\n    function getVersion() public view returns (uint256) {\\n        // AggregatorV3Interface s_priceFeed = AggregatorV3Interface(0x8A753747A1Fa494EC906cE90E9f37563A8AF630e);\\n        return s_priceFeed.version();\\n    }\\n\\n    function withdraw() public payable onlyOwner {\\n        for (\\n            uint256 funderIndex = 0;\\n            funderIndex < s_funders.length;\\n            funderIndex++\\n        ) {\\n            address funder = s_funders[funderIndex];\\n            s_addressToAmountFunded[funder] = 0;\\n        }\\n        s_funders = new address[](0);\\n        (bool callSuccess, ) = payable(msg.sender).call{\\n            value: address(this).balance\\n        }(\\\"\\\");\\n        require(callSuccess, \\\"Call failed\\\");\\n\\n        // // transfer\\n        // payable(msg.sender).transfer(address(this).balance);\\n        // // send\\n        // bool sendSuccess = payable(msg.sender).send(address(this).balance);\\n        // require(sendSuccess, \\\"Send failed\\\");\\n        // call\\n    }\\n\\n    function cheaperWithdraw() public payable onlyOwner {\\n        address[] memory funders = s_funders;\\n        // using memory variables instead of storage to avoid excessive gas usage\\n\\n        for (\\n            uint256 funderIndex = 0;\\n            funderIndex < funders.length;\\n            funderIndex++\\n        ) {\\n            address funder = funders[funderIndex];\\n            s_addressToAmountFunded[funder] = 0;\\n        }\\n        s_funders = new address[](0);\\n        (bool callSuccess, ) = i_owner.call{value: address(this).balance}(\\\"\\\");\\n        require(callSuccess, \\\"Call failed\\\");\\n    }\\n\\n    // getter functions to easily interact with storage variables\\n    function getOwner() public view returns (address) {\\n        return i_owner;\\n    }\\n\\n    function getFunder(uint256 index) public view returns (address) {\\n        return s_funders[index];\\n    }\\n\\n    function getAddressToAmountFunded(address funder)\\n        public\\n        view\\n        returns (uint256)\\n    {\\n        return s_addressToAmountFunded[funder];\\n    }\\n\\n    function getPriceFeed() public view returns (AggregatorV3Interface) {\\n        return s_priceFeed;\\n    }\\n}\\n\"\n    },\n    \"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\": {\n      \"content\": \"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ninterface AggregatorV3Interface {\\n  function decimals() external view returns (uint8);\\n\\n  function description() external view returns (string memory);\\n\\n  function version() external view returns (uint256);\\n\\n  // getRoundData and latestRoundData should both raise \\\"No data present\\\"\\n  // if they do not have data to report, instead of returning unset values\\n  // which could be misinterpreted as actual reported values.\\n  function getRoundData(uint80 _roundId)\\n    external\\n    view\\n    returns (\\n      uint80 roundId,\\n      int256 answer,\\n      uint256 startedAt,\\n      uint256 updatedAt,\\n      uint80 answeredInRound\\n    );\\n\\n  function latestRoundData()\\n    external\\n    view\\n    returns (\\n      uint80 roundId,\\n      int256 answer,\\n      uint256 startedAt,\\n      uint256 updatedAt,\\n      uint80 answeredInRound\\n    );\\n}\\n\"\n    },\n    \"contracts/PriceConverter.sol\": {\n      \"content\": \"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.9;\\n\\nimport \\\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\\\";\\n\\n// Why is this a library and not abstract?\\n// Why not an interface?\\nlibrary PriceConverter {\\n    // We could make this public, but then we'd have to deploy it\\n    function getPrice(AggregatorV3Interface priceFeed ) internal view returns (uint256) {\\n        (, int256 answer, , , ) = priceFeed.latestRoundData();\\n        // ETH/USD rate in 18 digit\\n        return uint256(answer * 10000000000);\\n    }\\n\\n    // 1000000000\\n    function getConversionRate(uint256 ethAmount, AggregatorV3Interface priceFeed)\\n        internal\\n        view\\n        returns (uint256)\\n    {\\n        uint256 ethPrice = getPrice(priceFeed);\\n        uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1000000000000000000;\\n        // the actual ETH/USD conversion rate, after adjusting the extra 0s.\\n        return ethAmountInUsd;\\n    }\\n}\\n\"\n    },\n    \"contracts/FunWithStorage.sol\": {\n      \"content\": \"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ncontract FunWithStorage {\\n    uint256 favoriteNumber; // Stored at slot 0\\n    bool someBool; // Stored at slot 1\\n    uint256[] myArray; /* Array Length Stored at slot 2,\\n    but the objects will be the keccak256(2), since 2 is the storage slot of the array */\\n    mapping(uint256 => bool) myMap; /* An empty slot is held at slot 3\\n    and the elements will be stored at keccak256(h(k) . p)\\n\\n    p: The storage slot (aka, 3)\\n    k: The key in hex\\n    h: Some function based on the type. For uint256, it just pads the hex\\n    */\\n    uint256 constant NOT_IN_STORAGE = 123;\\n    uint256 immutable i_not_in_storage;\\n\\n    constructor() {\\n        favoriteNumber = 25; // See stored spot above // SSTORE\\n        someBool = true; // See stored spot above // SSTORE\\n        myArray.push(222); // SSTORE\\n        myMap[0] = true; // SSTORE\\n        i_not_in_storage = 123;\\n    }\\n\\n    function doStuff() public {\\n        uint256 newVar = favoriteNumber + 1; // SLOAD\\n        bool otherVar = someBool; // SLOAD\\n        // ^^ memory variables\\n    }\\n}\\n\"\n    }\n  },\n  \"settings\": {\n    \"optimizer\": {\n      \"enabled\": false,\n      \"runs\": 200\n    },\n    \"outputSelection\": {\n      \"*\": {\n        \"*\": [\n          \"abi\",\n          \"evm.bytecode\",\n          \"evm.deployedBytecode\",\n          \"evm.methodIdentifiers\",\n          \"metadata\",\n          \"devdoc\",\n          \"userdoc\",\n          \"storageLayout\",\n          \"evm.gasEstimates\"\n        ],\n        \"\": [\n          \"ast\"\n        ]\n      }\n    },\n    \"metadata\": {\n      \"useLiteralContent\": true\n    }\n  }\n}",
+      "solcInputHash": "c1a8bf17889713ea8df48fd8134809a4",
+      "transactionHash": "0x59dddb1e7b25dfacad18f266010a4e4c286a088ee31f95347b0f224f267cf41f",
+      "args": []
+    },
+    "decoded": {
+      "from": "0x05dC07b75da36f13143BB1702Edd088488E72783",
+      "gasPrice": "1500000011",
+      "maxFeePerGas": "1500000011",
+      "maxPriorityFeePerGas": "1500000000",
+      "gasLimit": "227342",
+      "to": null,
+      "value": "0",
+      "nonce": 13,
+      "data": "0x60a060405234801561001057600080fd5b50601960008190555060018060006101000a81548160ff021916908315150217905550600260de908060018154018082558091505060019003906000526020600020016000909190919091505560016003600080815260200190815260200160002060006101000a81548160ff021916908315150217905550607b6080818152505060805161011c6100aa6000396000505061011c6000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063874f33a114602d575b600080fd5b60336035565b005b60006001600054604491906097565b90506000600160009054906101000a900460ff1690505050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600060a082605e565b915060a983605e565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111560db5760da6068565b5b82820190509291505056fea26469706673582212205651aca4f27c10640b96b83980902764d9cafc82be4ccfa70fe455b9909a183764736f6c63430008090033",
+      "r": "0x0c9aa64f159f29dc1f09c3c6e56e6e2bd62b98ea6116df558dacb9363fe50c53",
+      "s": "0x3f2f8cb1510c6e67aef5e04dcca31c141b7cc621ea3abd16a8addc7065f35d9c",
+      "v": 0,
+      "chainId": 5
+    }
+  }
+}
