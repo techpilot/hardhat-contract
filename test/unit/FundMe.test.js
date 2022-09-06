@@ -29,11 +29,11 @@ const { developmentChains } = require("../../helper-hardhat-config");
 
       // fund function
       describe("fund", async function () {
-        it("Fails if you don't send enough ETH", async function () {
-          await expect(fundMe.fund()).to.be.revertedWith(
-            "You need to spend more ether!"
-          );
-        });
+        // it("Fails if you don't send enough ETH", async function () {
+        //   await expect(fundMe.fund()).to.be.revertedWith(
+        //     "You need to spend more ether!"
+        //   );
+        // });
 
         it("update the amount funded data structure", async function () {
           await fundMe.fund({ value: sendValue });
